@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:wght@700&display=swap" rel="stylesheet">
+    <title>Lineales</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Ejercicios en JavaScript: Lineales</h1>
+    </header>
+
+    <div class="main">
+        <div class="ejercicio">
+            <div class="enunciado">
+                <h2>Ángulo de incidencia del sol</h2>
+            </div>
+
+            <div class="formulario">
+                <form action="" id="angulo">
+                    <label for="altura">Altura de un poste <input type="number" name="" id="altura" min='0' placeholder="2.00"> m </label>
+                    <label for="largo">Largo de la sombra <input type="number" name="" id="largo" min='0' placeholder="2.00"> m</label>
+                    <div class="boton">
+                        <button type="button" onclick="angulo()">Calcular</button>
+                    </div>
+                    
+                </form>
+            </div>
+            
+            <div class="resultado">
+                <h3 id="resultado1">Ángulo =</h3>
+            </div>
+            
+        </div>
+    
+        <!--Ejercicio 2-->
+        <div class="ejercicio" ">
+            <div class="enunciado">
+                <h2>Altura en caída libre</h2>
+            </div>
+
+            <div class="formulario">
+                <form action="" id="faltura">
+                    <label for="tiempo">Tiempo  <input type="number" name="" id="tiempo" min='0' placeholder="2.00"> s</label>
+                    <div class="boton">
+                        <button type="button" onclick="altura()">Calcular</button>
+                    </div>
+                    
+                </form>
+            </div>
+            
+            <div class="resultado">
+                <h3 id="resultado2">Altura =</h3>
+            </div>
+            
+        </div>
+        <!--Ejercicio 3-->
+        <div class="ejercicio">
+            <div class="enunciado">
+                <h2>Número generado</h2>
+            </div>
+            
+            <div class="formulario">
+                <form action="" id="numero">
+                    <label for="numero1">Número 1</label>
+                    <input type="number" name="" id="numero1" min="00000" max="99999" placeholder="12345">
+                    <label for="numero2">Número 2</label>
+                    <input type="number" name="" id="numero2" min="00000" max="99999" placeholder="12345">
+                    <label for="numero3">Número 3</label>
+                    <input type="number" name="" id="numero3" min="00000" max="99999" placeholder="12345">
+                    <label for="numero4">Número 4</label>
+                    <input type="number" name="" id="numero4" min="00000" max="99999" placeholder="12345">
+                    <label for="numero5">Número 5</label>
+                    <input type="number" name="" id="numero5" min="00000" max="99999" placeholder="12345">
+                    <div class="boton">
+                        <button type="button" onclick="numero()">Calcular</button>
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="resultado">
+                <h3 id="resultado3">Número resultante =</h3>
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <footer>
+        Realizado por Dennys Rojas - 6574
+    </footer>
+
+    <script src="lineales.js"></script>  
+
+</body>
+</html>
